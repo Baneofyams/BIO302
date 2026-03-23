@@ -3,11 +3,12 @@ library(bslib)
 library(tidyverse)
 library(ggplot2)
 source(here::here('R/sim_dat.R'))
+source(here::here('R/import_data.R'))
 set.seed(13)
 
 
 ui <- page_sidebar(
-  title = "Ecology Dashboard",
+  title = "Hardanger aculeata data exploration",
   
   sidebar = sidebar(
     
