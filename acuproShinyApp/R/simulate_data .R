@@ -27,8 +27,6 @@ gradient_data <- function(gradient1_values, gradient2_values, species_list, trai
   )
 }
 
-#plan from tomorrow -> finish dataframe function. Write read me. Change plots in app
-#to be regression plots. Maybe change checkboxes to radiobuttons. Upload all to github
 rain <- c(4000, 2750, 2125, 1900, 1650)
 masl <- c(75, 425, 810)
 spp <- raw |>

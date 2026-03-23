@@ -6,6 +6,8 @@ source(here::here('R/sim_dat.R'))
 source(here::here('R/import_data.R'))
 set.seed(13)
 
+rain <- c(4000, 2750, 2125, 1900, 1650)
+masl <- c(75, 425, 810)
 
 ui <- page_sidebar(
   title = "Hardanger aculeata data exploration",
